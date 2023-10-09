@@ -1,0 +1,25 @@
+steps
+1. create node project
+    > npm init
+
+2.install few node packages
+    > npm install express --save
+    >body parser
+    > nodemon
+
+3. create a file app.js
+4. NVC architecture
+    > Mode1-data
+    > View-UI
+    > Controller-API's
+    > Router-path
+
+view-> database
+database-> view
+
+example -shopping cart 
+1.Mode1 -data(item that are displayed on screen that is data from which they can choose)
+2.Controller-Button for e.g add to cart(when you click on button the api is getting called to store that product in your cart)
+3.View-list of products in cart means what user sees on screen
+4.Router-(when user clicks on button "add to cart" the path where the API is stored )
+
